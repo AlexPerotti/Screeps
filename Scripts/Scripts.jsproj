@@ -38,12 +38,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="default\main.js" />
-    <Content Include="default\role.builder.js" />
-    <Content Include="default\role.harvester.js" />
-    <Content Include="default\role.upgrader.js" />
-    <Content Include="default\tasks.common.js" />
+    <Content Include="sync\main.js" />
+    <Content Include="sync\role.builder.js" />
+    <Content Include="sync\role.harvester.js" />
+    <Content Include="sync\role.upgrader.js" />
+    <Content Include="sync\tasks.common.js" />
     <Content Include="_reference.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dev\" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>2118279a-2bd2-486e-966e-a86b0f1078ec</ProjectGuid>
